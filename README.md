@@ -27,7 +27,7 @@
   <h3 align="center">CJr - Workshop</h3>
 
   <p align="center">
-    Workshop de React Native da CJr - 2019/Agosto
+    Workshop de React Native of CJr - 2019/August
     <br />
     <a href="https://www.cjr.org.br/"><strong>
     Empresa participante »</strong></a>
@@ -57,7 +57,7 @@
 
 
 
-Este projeto foi feito como trabalho da matéria de Teoria e Aplicação de Grafos na Universidade de Brasília.
+Este projeto foi feito como modo de ensino para futuros CJtinhas. This project was mode for teachin new trainees and members of CJr.
 ### Built With
 * [React Native](https://facebook.github.io/react-native/)
 
