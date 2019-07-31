@@ -4,6 +4,6 @@
 
 import { AppRegistry } from "react-native";
 import App from "./App";
-import { name as WorshopReactNative } from "./app.json";
+import { name as workshopreactnative } from "./app.json";
 
-AppRegistry.registerComponent(WorshopReactNative, () => App);
+AppRegistry.registerComponent(workshopreactnative, () => App);
