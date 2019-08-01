@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import { StyleSheet, View, TextInput, Button } from "react-native";
 import ListItem from "./src/Components/ListItem/ListItem";
-
 export default class App extends Component {
   state = {
     filmName: "",
@@ -24,9 +23,18 @@ export default class App extends Component {
       };
     });
   };
+
+  filmDelete = index => {
+    const newState = this.state.films.filter(
+      (value, indexItem) => indexItem !== index
+    );
+    this.setState({
+      films: newState
+    });
+  };
   render() {
     const filmsOutput = this.state.films.map((film, i) => (
-      <ListItem key={i} filmName={film} />
+      <ListItem key={i} filmName={film} Clicando={() => this.filmDelete(i)} />
     ));
     return (
       <View style={styles.container}>
